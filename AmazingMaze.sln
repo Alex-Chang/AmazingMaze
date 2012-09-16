@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmazingMaze", "AmazingMaze\AmazingMaze.vcxproj", "{84986F3B-281B-401C-BDC5-A3956C9156A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapEditor", "MapEditor\MapEditor.vcxproj", "{C88796EC-E794-4032-8318-2AB0A1EE5518}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{103D1EE7-6CE0-4015-8F2C-0F4EC9856BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84986F3B-281B-401C-BDC5-A3956C9156A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84986F3B-281B-401C-BDC5-A3956C9156A6}.Debug|Win32.Build.0 = Debug|Win32
+		{84986F3B-281B-401C-BDC5-A3956C9156A6}.Release|Win32.ActiveCfg = Release|Win32
+		{84986F3B-281B-401C-BDC5-A3956C9156A6}.Release|Win32.Build.0 = Release|Win32
+		{C88796EC-E794-4032-8318-2AB0A1EE5518}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C88796EC-E794-4032-8318-2AB0A1EE5518}.Debug|Win32.Build.0 = Debug|Win32
+		{C88796EC-E794-4032-8318-2AB0A1EE5518}.Release|Win32.ActiveCfg = Release|Win32
+		{C88796EC-E794-4032-8318-2AB0A1EE5518}.Release|Win32.Build.0 = Release|Win32
+		{103D1EE7-6CE0-4015-8F2C-0F4EC9856BAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{103D1EE7-6CE0-4015-8F2C-0F4EC9856BAA}.Debug|Win32.Build.0 = Debug|Win32
+		{103D1EE7-6CE0-4015-8F2C-0F4EC9856BAA}.Release|Win32.ActiveCfg = Release|Win32
+		{103D1EE7-6CE0-4015-8F2C-0F4EC9856BAA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
