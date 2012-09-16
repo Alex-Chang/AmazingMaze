@@ -22,5 +22,6 @@ Thumbs.db
 *.log
 *.lib
 *.sbr
+*.sdf
 obj/
 _ReSharper*/
