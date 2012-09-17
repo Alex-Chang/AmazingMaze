@@ -23,6 +23,12 @@ Thumbs.db
 *.lib
 *.sbr
 *.sdf
+*.opensdf
 *.dll
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.idb
+*.res
 obj/
 _ReSharper*/

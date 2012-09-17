@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="enumerations.h" />
+    <ClInclude Include="keys.h" />
     <ClInclude Include="map_application.h" />
     <ClInclude Include="message.h" />
     <ClInclude Include="Property.h" />
