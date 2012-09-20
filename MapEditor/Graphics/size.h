@@ -1,9 +1,17 @@
 
 #pragma once
 
-struct Size
-{
-	int width;
+#include "../stdafx.h"
 
-	int height;
-};
+namespace alex
+{
+	namespace graphics
+	{
+		struct Size
+		{
+			int width;
+
+			int height;
+		};
+	}
+}

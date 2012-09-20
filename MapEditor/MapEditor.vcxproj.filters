@@ -19,6 +19,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="头文件\Events">
+      <UniqueIdentifier>{44e4880e-7f6d-4017-897c-c8b00dc10551}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="startup.cpp">
@@ -27,27 +30,18 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="win32_application.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="win_msg_handler.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="UI\ui_widget.cpp">
+    <ClCompile Include="Widgets\ui_widget.cpp">
       <Filter>头文件\UI</Filter>
     </ClCompile>
-    <ClCompile Include="UI\ui_window.cpp">
+    <ClCompile Include="Widgets\ui_window.cpp">
       <Filter>头文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\win32_application.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="enumerations.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="map_application.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="message.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Property.h">
@@ -62,43 +56,52 @@
     <ClInclude Include="strings.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="win32_application.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="win_msg_handler.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="UI\ui.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="ui\ui_button.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="UI\ui_label.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="UI\ui_picture.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="UI\ui_picture_table.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="ui\ui_widget.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="ui\ui_widgets.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="UI\ui_window.h">
-      <Filter>头文件\UI</Filter>
-    </ClInclude>
     <ClInclude Include="Graphics\point.h">
       <Filter>头文件\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Graphics\size.h">
       <Filter>头文件\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="keys.h">
+    <ClInclude Include="Events\event_arguments.h">
+      <Filter>头文件\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\key_event_arguments.h">
+      <Filter>头文件\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_button.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_label.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_picture.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_picture_table.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_widget.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_widgets.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ui_window.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\keys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\mouse_buttons.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\win32_application.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

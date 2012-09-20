@@ -1,4 +1,5 @@
 
+#include "stdafx.h"
 
 const char		application_name	[] = "MapEditor";
 const char		window_name			[] = "MapEditorWindow";

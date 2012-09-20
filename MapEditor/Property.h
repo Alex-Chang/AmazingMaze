@@ -1,8 +1,7 @@
 
 #include "stdafx.h"
-#include "shape.h"
 
-class Property : Shape
+class Property
 {
 private:
 	string mName;

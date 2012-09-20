@@ -1,11 +1,19 @@
 
 #pragma once
 
-struct Point
+#include "../stdafx.h"
+
+namespace alex
 {
-	int x;
+	namespace graphics
+	{
+		struct Point
+		{
+			int x;
 
-	int y;
-};
+			int y;
+		};
 
-typedef Point Position;
+		typedef Point Position;
+	}
+}
